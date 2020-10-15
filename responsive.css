@@ -2,7 +2,7 @@
     .navbar{
         width: 250px;
         height: 100%;
-        background-color:  #262626a4;
+        background-color:  #262626;
         position: fixed;
         top: 0;
         right: -300px;
@@ -67,6 +67,10 @@
         width: 50%;
     }
 
+    #about{
+        height: 975px;
+    }
+
     #project{
         height: 1100px;
     }
@@ -91,7 +95,7 @@
     }
 
     #about{
-        height: 1300px;
+        height: 1400px;
     }
 
     .desc{
@@ -109,7 +113,8 @@
     }
 
     #project{
-        height: 2050px;
+        height: 1900px;
     }
+    
 }
 
