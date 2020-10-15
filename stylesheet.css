@@ -124,7 +124,7 @@ li, a{
 }
   
 .intro h1{
-    font-family: 'Roboto';font-size: 46px;
+    font-family: 'Roboto';font-size: 44px;
 }
   
 .intro span{
@@ -142,11 +142,13 @@ li, a{
 
 .btn {
     padding: 10px;
-    height: 40px;
     color: white;
     display: inline-block;
     border-radius: 50%;
     text-align: center;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease 0s;
 }
 
 .btn-wrapper p {
@@ -162,15 +164,15 @@ li, a{
 }
 
 .resume {
-  margin-left: 20px;
   border: 1px solid #eff;
-  padding: 5px 24px 0 24px;
   color: white;
   display: inline-block;
   border-radius: 4px;
   text-align: center;
-  width: 250px;
+  width: 200px;
   transition: all 0.3s ease 0s;
+  margin: 10px 0;
+  margin-left: 10px;
 }
 
 .resume:hover{
@@ -280,7 +282,7 @@ li, a{
   background-size: cover;
   color: rgb(255, 255, 255);
   text-align: left;
-  height: 925px;
+  height: 950px;
 }
 
 #about h1{
@@ -310,14 +312,13 @@ li, a{
 
 .left img{
   width: 100%;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
   transition: 1s;
   align-items: center;
+  border-radius: 20px;
 }
 
 .left img:hover{
-  filter: grayscale(0%);
+  filter: grayscale(100%);
   transition: 1s;
 }
 
@@ -348,7 +349,7 @@ li, a{
 
 
 #project{
-	padding: 130px 0 100px 0;
+	padding: 100px 0 100px 0;
   background-image: url('Assets/david-werbrouck-5GwLlb-_UYk-unsplash.jpg') ;
   background-size: cover;
   color: rgb(255, 255, 255);
@@ -467,6 +468,7 @@ input[type="submit"]{
 	background-color: #0074b9;
 	color: white;
 }
+
 
 input[type="submit"]:hover{
 	cursor: pointer;
